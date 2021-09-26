@@ -32,17 +32,17 @@ This is a Twitter bot that tweets the most popular posts on [r/Art](https://www.
 6. **password:** your Reddit password
 7. **client_id:** the outputted client id
 8. **client_secret:** the outputted secret
-9. **reddit.subreddit:** Change the subreddit to any subreddit (Preferably  one that has users post images)
+9. **reddit.subreddit:** Change the subreddit to any subreddit (Preferably one that has users post images)
 
 ######  Installtion
 1. Download the latest python version from: https://www.python.org/downloads/
 2. Download the Art.py file
 3. Use pip3 to install praw in in terminal:         
          
-         $ pip3 install praw
+         pip3 install praw
 4. Use pip3 to install tweepy in in terminal:         
          
-         $ pip3 install tweepy
+         pip3 install tweepy
 5. Run the py file
 6. Host the bot on any bot hosting platform to keep it online.  
 
