@@ -44,7 +44,7 @@ This is a Twitter bot that tweets the most popular posts on [r/Art](https://www.
          
          pip3 install tweepy
 5. Run the py file
-6. Host the bot on any bot hosting platform to keep it online.  
+6. Host the bot on any bot hosting platform to keep it online
 
 ## Gallery:
 Some tweets the bot has made.
