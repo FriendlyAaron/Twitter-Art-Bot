@@ -27,7 +27,7 @@ This is a Twitter bot that tweets the most popular posts on [r/Art](https://www.
 
 
 ## Gallery:
-Some tweets that bot has made.
+Some tweets the bot has made.
 
 <img width="590" alt="Screen Shot 2021-09-26 at 3 00 53 PM" src="https://user-images.githubusercontent.com/84158176/134820742-712faede-45f0-479a-8716-a33bf77894e1.png">
 
