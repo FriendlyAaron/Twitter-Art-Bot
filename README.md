@@ -1,7 +1,7 @@
 # Twitter-Art-Bot
 This is a Twitter bot that tweets the most popular posts on [r/Art](https://www.reddit.com/r/Art/).
 ### Setup
-###### Reddit App:
+###### Twitter App:
 1. [Navigate to the Apps page ](https://www.reddit.com/prefs/apps/)
 2. Click *create an app*
 3. **name:** Set a name for your app
