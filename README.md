@@ -34,7 +34,7 @@ This is a Twitter bot that tweets the most popular posts on [r/Art](https://www.
 8. **client_secret:** the outputted secret
 9. **reddit.subreddit:** Change the subreddit to any subreddit (Preferably one that has users post images)
 
-######  Installtion
+######  Installation
 1. Download the latest python version from: https://www.python.org/downloads/
 2. Download the Art.py file
 3. Use pip3 to install praw in in terminal:         
