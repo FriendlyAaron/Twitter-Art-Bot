@@ -6,8 +6,8 @@ This is a Twitter bot that tweets the most popular posts on [r/Art](https://www.
 1. Create a [twitter](https://twitter.com/) account
 2. [Navigate to the Apps page ](https://developer.twitter.com/en/portal/apps/21454677/settings)
 3. Click *apply*
-4. Submit and fill out all the info on the form.
-5. Wait to be granted access.
+4. Submit and fill out all the info on the form
+5. Wait to be granted access
 6. Click *developer portal*
 7. Click *Create project*
 8. Note the outputted *API key*, *API secret*, *Access token* and *Access token secret*
