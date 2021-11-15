@@ -37,10 +37,10 @@ This is a Twitter bot that tweets the most popular posts on [r/Art](https://www.
 ######  Installation
 1. Download the latest python version from: https://www.python.org/downloads/
 2. Download the Art.py file
-3. Use pip3 to install praw in in terminal:         
+3. Use pip3 to install praw in the terminal:         
          
          pip3 install praw
-4. Use pip3 to install tweepy in in terminal:         
+4. Use pip3 to install tweepy in the terminal:         
          
          pip3 install tweepy
 5. Run the py file
