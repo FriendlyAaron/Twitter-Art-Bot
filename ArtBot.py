@@ -28,27 +28,43 @@ subreddit = reddit.subreddit("Art")
 
 api = tweepy.API(auth)
 
-
-def tweet ():
+def getSubmission ():
   try:
     for submission in subreddit.hot(limit=30):
       slink = submission.url 
       plink = submission.permalink
-      author = submission.author
-      if not submission.stickied and not submission.is_self and not submission.over_18 and not submission.saved and slink.endswith (('png','.jpg')):
+      author = str(submission.author)
+      if not submission.stickied and not submission.is_self and not submission.over_18 and not submission.saved and slink.endswith (('png','.jpg','gif')):
         submission.save()
         stitle = submission.title 
         type_file = submission.url[-4:]
-        urllib.request.urlretrieve(slink,stitle+type_file)
-        media = api.media_upload(stitle+type_file)     
-        api.update_status('"'+stitle+'" by  /u/'+author.name+': reddit.com'+plink,media_ids =[media.media_id_string],)
-        print ('Tweeted')
-        os.remove(stitle+type_file)
-        time.sleep(1800)
-        break
+        file = stitle+type_file
+        urllib.request.urlretrieve(slink,file)
+        media = api.media_upload(file) 
+        tweet(stitle,author,plink,media,file)
+        break  
   except:
-    tweet()
+    print ('Failed to retrieve submission data')
+
+
+
+
+  
+
+def tweet (stitle,author,plink,media,file): 
+  try:    
+    api.update_status('"'+stitle+'" by  /u/'+author+': reddit.com'+plink,media_ids =[media.media_id_string],)
+    print ('Tweeted')
+    os.remove(file)
+    time.sleep(1800)
+  except:
+    print ('Failed to tweet')
+    os.remove(file)
+    getSubmission()
+
+
+ 
 
 
 while True:
-  tweet()
+  getSubmission()
