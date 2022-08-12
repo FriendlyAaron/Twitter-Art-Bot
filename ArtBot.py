@@ -44,6 +44,9 @@ def getSubmission ():
         tweet(stitle,author,plink,media,file)
         break  
   except:
+    os.remove(file)
+    print ('Failed to retrieve submission data')
+  finally:
     print ('Failed to retrieve submission data')
 
 
