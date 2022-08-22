@@ -56,7 +56,7 @@ def getSubmission ():
 
 def tweet (stitle,author,plink,media,file): 
   try:    
-    api.update_status('"'+stitle+'" by  /u/'+author+': reddit.com'+plink,media_ids =[media.media_id_string],)
+    api.update_status('"'+stitle+'" posted by /u/'+author+': reddit.com'+plink,media_ids =[media.media_id_string],)
     print ('Tweeted')
     os.remove(file)
     time.sleep(1800)
