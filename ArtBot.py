@@ -3,6 +3,7 @@ import time
 import praw
 import os
 import urllib.request
+from keep_alive import keep_alive
 
 # Authenticate to Twitter
 consumer_key = os.environ ['consumer_key']
@@ -68,6 +69,6 @@ def tweet (stitle,author,plink,media,file):
 
  
 
-
+keep_alive()
 while True:
   getSubmission()
