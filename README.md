@@ -1,5 +1,5 @@
 # Twitter-Art-Bot
-This is a Twitter bot that tweets the most popular posts on [r/Art](https://www.reddit.com/r/Art/). Check the bot in action [here](https://twitter.com/Reddit_art_bot).
+This is a Twitter bot that tweets the most popular posts on [r/Art](https://www.reddit.com/r/Art/). Check the bot in action [here](https://twitter.com/Reddit_art_bot). The bot is being hosted on [Replit] (https://replit.com/@aaronviera03/Twitter-rArt-bot).
 
 ### Setup
 ###### Twitter App:
@@ -35,16 +35,12 @@ This is a Twitter bot that tweets the most popular posts on [r/Art](https://www.
 9. **reddit.subreddit:** Change the subreddit to any subreddit (Preferably one that has users post images)
 
 ######  Installation
-1. Download the latest python version from: https://www.python.org/downloads/
-2. Download the Art.py file
-3. Use pip3 to install praw in the terminal:         
-         
-         pip3 install praw
-4. Use pip3 to install tweepy in the terminal:         
-         
-         pip3 install tweepy
-5. Run the py file
-6. Host the bot on any bot hosting platform to keep it online
+1. Create a [Replit](https://replit.com/) account
+2. Download the main.py & keep_alive files
+3. Go to my repls and create a new python repl
+4. Upload main.py & keep_alive files
+5. Config the main.py file
+6. Run the py file.
 
 ## Gallery:
 Some tweets the bot has made.
