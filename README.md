@@ -1,5 +1,5 @@
 # Twitter-Art-Bot
-This is a Twitter bot that tweets the most popular posts on [r/Art](https://www.reddit.com/r/Art/). Check the bot in action [here](https://twitter.com/Reddit_art_bot). The bot is being hosted on [Replit] (https://replit.com/@aaronviera03/Twitter-rArt-bot).
+This is a Twitter bot that tweets the most popular posts on [r/Art](https://www.reddit.com/r/Art/). Check the bot in action [here](https://twitter.com/Reddit_art_bot). The bot is being hosted on [Replit](https://replit.com/@aaronviera03/Twitter-rArt-bot).
 
 ### Setup
 ###### Twitter App:
