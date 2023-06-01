@@ -44,7 +44,7 @@ def getSubmission ():
       slink = submission.url 
       plink = submission.permalink
       author = str(submission.author)
-      if not submission.stickied and not submission.is_self and not submission.saved and submission.over_18 and slink.endswith (('png','.jpg','gif','jpeg')):
+      if not submission.stickied and not submission.is_self and not submission.saved and not submission.over_18 and slink.endswith (('png','.jpg','gif','jpeg')):
         submission.save()
         stitle = submission.title 
         type_file = submission.url[-4:]
